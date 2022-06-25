@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Avengir Next";
+}
+
+li {
+    list-style: none;
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+header {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding-top: 30px;
+    line-height: 25px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+.header-logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+    padding-left: 100px;
+}
+.header-list{
+    height: 50px;
+    padding-right: 100px;
+}
+.header-list a{
+    color: #364f6b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header-list a:hover {
+    text-decoration: underline;
+}
+main {
+    padding-top: 10px;
+}
+.tbl-biru a{
+    background: #3f72af;
+    border-radius: 40px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tbl-biru a:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}
+.kolom, deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+.isi {
+    padding-top: 20px;
+}
+a.tbl-pink {
+    font-size: 15px;
+}
+.center {
+    text-align: center;
+    width: 100%;
+}
+.tutors-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foto-tutors {
+    width: 20%;
+    margin: 0 auto;
+}
+.foto-tutors img {
+    width: 80%;
+    border-radius: 50%;
+}
+.foto-tutors p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+#Contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
